@@ -1,0 +1,19 @@
+{
+  "orderStatus": "//h5[normalize-space()='Order Status']",
+  "totalRevenue": "//h6[normalize-space()='Total Revenue']",
+  "totalProducts": "//h6[normalize-space()='Total products']",
+  "totalOrders": "//h6[normalize-space()='Total Orders']",
+  "totalStores": "//h6[normalize-space()='Total Orders']",
+  "totalUser": "//h6[normalize-space()='Total User']",
+  "averageRevenue": "//h5[normalize-space()='Average Revenue']",
+  "topStores": "//h5[normalize-space()='Top Stores']",
+  "recentOrders": "//h5[normalize-space()='Recent Orders']",
+  "productStockReport": "//h5[normalize-space()='Product Stock Report']",
+  "latestReviews": "//h5[normalize-space()='Latest reviews']",
+  "topSellingProducts": "//h5[normalize-space()='Top Selling Products']",
+  "usersButton": "//div[@class='sidebar-main-link'][normalize-space()='Users']",
+  "allUsersOption": "//div[normalize-space()='All Users']",
+  "productsButton": "//div[@class='sidebar-main-link'][normalize-space()='Products']",
+  "allProductsOption": "//div[normalize-space()='All Products']",
+  "addProductOption": "//div[normalize-space()='Add Product']"
+}

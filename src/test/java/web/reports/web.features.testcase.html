@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+        !function (t, e) {
+            var o, n, p, r;
+            e.__SV || (window.posthog = e, e._i = [], e.init = function (i, s, a) {
+                function g(t, e) {
+                    var o = e.split(".");
+                    2 == o.length && (t = t[o[0]], e = o[1]), t[e] = function () {
+                        t.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+                    }
+                }
+
+                (p = t.createElement("script")).type = "text/javascript", p.async = !0, p.src = s.api_host + "/static/array.js", (r = t.getElementsByTagName("script")[0]).parentNode.insertBefore(p, r);
+                var u = e;
+                for (void 0 !== a ? u = e[a] = [] : a = "posthog", u.people = u.people || [], u.toString = function (t) {
+                    var e = "posthog";
+                    return "posthog" !== a && (e += "." + a), t || (e += " (stub)"), e
+                }, u.people.toString = function () {
+                    return u.toString(1) + ".people (stub)"
+                }, o = "capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "), n = 0; n < o.length; n++) g(u, o[n]);
+                e._i.push([i, s, a])
+            }, e.__SV = 1)
+        }(document, window.posthog || []);
+        posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1', {
+            api_host: 'https://app.posthog.com',
+            persistence: 'localStorage',
+            autocapture: false,
+            capture_pageview: false,
+            api_transport: 'sendBeacon',
+            loaded: function (posthog) {
+                posthog.capture("report_feature", {
+                    distinct_id: "699a930e-95f4-47bb-96d6-434ca5bde2a8",
+                    karate_version: "1.5.0",
+                    karate_meta: null
+                });
+            }
+        });
+    </script>
+
+    <title>web.features.testcase</title>
+</head>
+<body>
+<div id="root-container">
+    <div id="leftnav">
+
+        <div>
+            <div class="nav-logo">
+                <a href="https://karatelabs.io">
+                    <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+                </a>
+                <div class="nav-count">
+                    <div id="nav-pass" class="bg-success">1</div>
+                    <div id="nav-fail" class="bg-danger">0</div>
+                </div>
+            </div>
+            <div id="nav-env">
+                <div></div>
+            </div>
+            <div id="nav-type">
+                <div>Scenarios</div>
+            </div>
+            <div id="nav-date">
+                <div>2024-11-19 04:08:41 CH</div>
+            </div>
+        </div>
+
+        <div class="nav-container">
+            <div class="nav-item passed">
+                <a href="#[3:16]"><span>[3:16]</span> <span>Verify edit product</span></a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="page-heading alert alert-primary">
+            <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+            <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+            <span class="feature-label">Feature:</span>
+            <span class="feature-path">web/features/testcase.feature</span><span class="feature-label">|</span>
+            <span class="feature-name">All test case</span>
+            <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+            <div class="scenario-heading" id="[3:16]">
+                <div class="heading-container">
+                    <div class="scenario-tags">
+                        <a class="badge badge-primary" href="karate-tags.html">TC_03</a>
+                    </div>
+                    <div class="scenario-keyword">
+                        Scenario: <span>[3:16]</span>
+                        <span class="scenario-name">Verify edit product</span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="scenario-time passed">
+                    <span>ms:</span>&nbsp;<span>15806</span>
+                </div>
+            </div>
+
+            <div>
+                <div>
+
+
+                    <div class="step-row">
+                        <div class="step-container" id="0.17">
+                            <div class="step-ref passed">17</div>
+
+                            <div class="step-cell passed">
+                                <span>*</span>&nbsp;<span>call read(&quot;classpath:web/commons/login.feature@Login&quot;)</span>
+                            </div>
+                        </div>
+                        <div class="time-cell passed">7664</div>
+                    </div>
+
+
+                    <div>
+
+                        <div class="step-row">
+                            <div class="step-container" id="0.17.0.call">
+                                <div class="step-ref passed">&gt;&gt;</div>
+                                <div class="step-indent"></div>
+                                <div class="step-cell passed">web.commons.login</div>
+                            </div>
+                            <div class="time-cell passed">7602</div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.17.0.call">
+                                        <div class="step-container" id="0.17.0.call.0.4">
+                                            <div class="step-ref passed">4</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>def login = read(&quot;classpath:web/locators/login.json&quot;)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">26</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.17.0.call">
+                                        <div class="step-container" id="0.17.0.call.0.5">
+                                            <div class="step-ref passed">5</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>driver &quot;https://admin.pixelstrap.net/multikart-admin-rest/auth/login&quot;</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">1190</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.17.0.call">
+                                        <div class="step-container" id="0.17.0.call.0.6">
+                                            <div class="step-ref passed">6</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>maximize()</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">15</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.17.0.call">
+                                        <div class="step-container" id="0.17.0.call.0.7">
+                                            <div class="step-ref passed">7</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>delay(1000)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">1014</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.17.0.call">
+                                        <div class="step-container" id="0.17.0.call.0.20">
+                                            <div class="step-ref passed">20</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>input(login.username, login.usernameValue)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">84</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.17.0.call">
+                                        <div class="step-container" id="0.17.0.call.0.21">
+                                            <div class="step-ref passed">21</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>input(login.password, login.passwordValue)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">35</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.17.0.call">
+                                        <div class="step-container" id="0.17.0.call.0.22">
+                                            <div class="step-ref passed">22</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>click(login.loginButton)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">14</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.17.0.call">
+                                        <div class="step-container" id="0.17.0.call.0.23">
+                                            <div class="step-ref passed">23</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>waitForUrl(&quot;https://admin.pixelstrap.net/multikart-admin-rest/dashboard&quot;)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">5010</div>
+                                    </div>
+
+
+                                    <div class="preformatted" data-parent="0.17.0.call.0.23">16:08:28.009 waitForUrl -
+                                        retry #1
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.17.0.call">
+                                        <div class="step-container" id="0.17.0.call.0.24">
+                                            <div class="step-ref passed">24</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>screenshot()</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">213</div>
+                                    </div>
+
+
+                                    <div class="embed" data-parent="0.17.0.call.0.24"><img
+                                            src="web.commons.login_2_1732007313215.png"/></div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <div>
+
+
+                    <div class="step-row">
+                        <div class="step-container" id="0.18">
+                            <div class="step-ref passed">18</div>
+
+                            <div class="step-cell passed">
+                                <span>*</span>&nbsp;<span>call read(&quot;classpath:web/commons/dashboard.feature@ClickAllProducts&quot;)</span>
+                            </div>
+                        </div>
+                        <div class="time-cell passed">5125</div>
+                    </div>
+
+
+                    <div>
+
+                        <div class="step-row">
+                            <div class="step-container" id="0.18.0.call">
+                                <div class="step-ref passed">&gt;&gt;</div>
+                                <div class="step-indent"></div>
+                                <div class="step-cell passed">web.commons.dashboard</div>
+                            </div>
+                            <div class="time-cell passed">5043</div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.18.0.call">
+                                        <div class="step-container" id="0.18.0.call.0.4">
+                                            <div class="step-ref passed">4</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>def dashboard = read(&quot;classpath:web/locators/dashboard.json&quot;)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">3</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.18.0.call">
+                                        <div class="step-container" id="0.18.0.call.0.30">
+                                            <div class="step-ref passed">30</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>click(dashboard.productsButton)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">10</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.18.0.call">
+                                        <div class="step-container" id="0.18.0.call.0.31">
+                                            <div class="step-ref passed">31</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>click(dashboard.allProductsOption)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">9</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.18.0.call">
+                                        <div class="step-container" id="0.18.0.call.0.32">
+                                            <div class="step-ref passed">32</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>waitForUrl(&quot;https://admin.pixelstrap.net/multikart-admin-rest/product&quot;)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">5021</div>
+                                    </div>
+
+
+                                    <div class="preformatted" data-parent="0.18.0.call.0.32">16:08:33.369 waitForUrl -
+                                        retry #1
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <div>
+
+
+                    <div class="step-row">
+                        <div class="step-container" id="0.19">
+                            <div class="step-ref passed">19</div>
+
+                            <div class="step-cell passed">
+                                <span>*</span>&nbsp;<span>call read(&quot;classpath:web/commons/product.feature@SearchForBoyfriendShirts&quot;)</span>
+                            </div>
+                        </div>
+                        <div class="time-cell passed">247</div>
+                    </div>
+
+
+                    <div>
+
+                        <div class="step-row">
+                            <div class="step-container" id="0.19.0.call">
+                                <div class="step-ref passed">&gt;&gt;</div>
+                                <div class="step-indent"></div>
+                                <div class="step-cell passed">web.commons.product</div>
+                            </div>
+                            <div class="time-cell passed">173</div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.19.0.call">
+                                        <div class="step-container" id="0.19.0.call.0.4">
+                                            <div class="step-ref passed">4</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>def product = read(&quot;classpath:web/locators/product.json&quot;)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">2</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.19.0.call">
+                                        <div class="step-container" id="0.19.0.call.0.8">
+                                            <div class="step-ref passed">8</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>input(product.productSearchBox, &quot;Boyfriend Shirts&quot;)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">164</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.19.0.call">
+                                        <div class="step-container" id="0.19.0.call.0.9">
+                                            <div class="step-ref passed">9</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>waitFor(product.boyfriendShirts)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">6</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <div>
+
+
+                    <div class="step-row">
+                        <div class="step-container" id="0.20">
+                            <div class="step-ref passed">20</div>
+
+                            <div class="step-cell passed">
+                                <span>*</span>&nbsp;<span>call read(&quot;classpath:web/commons/product.feature@ClickBoyfriendShirts&quot;)</span>
+                            </div>
+                        </div>
+                        <div class="time-cell passed">2271</div>
+                    </div>
+
+
+                    <div>
+
+                        <div class="step-row">
+                            <div class="step-container" id="0.20.0.call">
+                                <div class="step-ref passed">&gt;&gt;</div>
+                                <div class="step-indent"></div>
+                                <div class="step-cell passed">web.commons.product</div>
+                            </div>
+                            <div class="time-cell passed">2221</div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.20.0.call">
+                                        <div class="step-container" id="0.20.0.call.0.4">
+                                            <div class="step-ref passed">4</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>def product = read(&quot;classpath:web/locators/product.json&quot;)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">2</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.20.0.call">
+                                        <div class="step-container" id="0.20.0.call.0.13">
+                                            <div class="step-ref passed">13</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>click(product.boyfriendShirts)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">138</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.20.0.call">
+                                        <div class="step-container" id="0.20.0.call.0.14">
+                                            <div class="step-ref passed">14</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>waitForUrl(&quot;https://admin.pixelstrap.net/multikart-admin-rest/product/edit/12&quot;)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">25</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.20.0.call">
+                                        <div class="step-container" id="0.20.0.call.0.15">
+                                            <div class="step-ref passed">15</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>waitFor(product.editPage)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">43</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.20.0.call">
+                                        <div class="step-container" id="0.20.0.call.0.16">
+                                            <div class="step-ref passed">16</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>delay(2000)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">2013</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+                <div>
+
+
+                    <div class="step-row">
+                        <div class="step-container" id="0.21">
+                            <div class="step-ref passed">21</div>
+
+                            <div class="step-cell passed">
+                                <span>*</span>&nbsp;<span>call read(&quot;classpath:web/commons/product.feature@VerifyBoyfriendShirts&quot;)</span>
+                            </div>
+                        </div>
+                        <div class="time-cell passed">499</div>
+                    </div>
+
+
+                    <div>
+
+                        <div class="step-row">
+                            <div class="step-container" id="0.21.0.call">
+                                <div class="step-ref passed">&gt;&gt;</div>
+                                <div class="step-indent"></div>
+                                <div class="step-cell passed">web.commons.product</div>
+                            </div>
+                            <div class="time-cell passed">449</div>
+                        </div>
+                        <div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.4">
+                                            <div class="step-ref passed">4</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>def product = read(&quot;classpath:web/locators/product.json&quot;)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">6</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.20">
+                                            <div class="step-ref passed">20</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match exists(product.store) == true</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">77</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.21">
+                                            <div class="step-ref passed">21</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match text(product.store) == &quot;Trendy Fashion&quot;</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">9</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.22">
+                                            <div class="step-ref passed">22</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match exists(product.name) == true</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">5</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.23">
+                                            <div class="step-ref passed">23</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match value(product.name) == &quot;Boyfriend Shirts&quot;</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">6</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.24">
+                                            <div class="step-ref passed">24</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match exists(product.tax) == true</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">5</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.25">
+                                            <div class="step-ref passed">25</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match text(product.tax) == &quot;Sales Tex&quot;</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">6</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.26">
+                                            <div class="step-ref passed">26</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>click(product.inventoryButton)</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">12</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.27">
+                                            <div class="step-ref passed">27</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match exists(product.type) == true</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">6</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.28">
+                                            <div class="step-ref passed">28</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match text(product.type) == &quot;Simple Product&quot;</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">5</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.29">
+                                            <div class="step-ref passed">29</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match exists(product.stockStatus) == true</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">9</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.30">
+                                            <div class="step-ref passed">30</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match text(product.stockStatus) == &quot;In Stock&quot;</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">6</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.31">
+                                            <div class="step-ref passed">31</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match exists(product.sku) == true</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">6</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.32">
+                                            <div class="step-ref passed">32</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match value(product.sku) == &quot;FASH15&quot;</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">7</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.33">
+                                            <div class="step-ref passed">33</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match exists(product.stockQuantity) == true</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">5</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.34">
+                                            <div class="step-ref passed">34</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match value(product.stockQuantity) == &quot;27&quot;</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">10</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.35">
+                                            <div class="step-ref passed">35</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match exists(product.price) == true</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">5</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.36">
+                                            <div class="step-ref passed">36</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match value(product.price) == &quot;12&quot;</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">6</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.37">
+                                            <div class="step-ref passed">37</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match exists(product.discount) == true</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">5</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.38">
+                                            <div class="step-ref passed">38</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match value(product.discount) == &quot;12&quot;</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">5</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.39">
+                                            <div class="step-ref passed">39</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match exists(product.salePrice) == true</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">6</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.40">
+                                            <div class="step-ref passed">40</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match value(product.salePrice) == &quot;10.56&quot;</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">7</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.41">
+                                            <div class="step-ref passed">41</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match exists(product.wholesalePriceType) == true</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">8</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.42">
+                                            <div class="step-ref passed">42</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>match text(product.wholesalePriceType) == &quot;Fixed&quot;</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">7</div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+
+
+                                    <div class="step-row" data-parent="0.21.0.call">
+                                        <div class="step-container" id="0.21.0.call.0.43">
+                                            <div class="step-ref passed">43</div>
+                                            <div class="step-indent"></div>
+                                            <div class="step-cell passed">
+                                                <span>*</span>&nbsp;<span>screenshot()</span>
+                                            </div>
+                                        </div>
+                                        <div class="time-cell passed">221</div>
+                                    </div>
+
+
+                                    <div class="embed" data-parent="0.21.0.call.0.43"><img
+                                            src="web.commons.product_3_1732007321400.png"/></div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,134 @@
+@TC_01
+"1. Navigate to login page
+URL: https://admin.pixelstrap.net/multikart-admin-rest/auth/login
+Email : admin@example.com
+Password: 123456789
+2. Login to application"
+//result
+"1. Login page should be displayed: Email, Password, Forgot Password, Login button, SignUp link
+2. The dashboard should be display:
+- Order Status
+- Total Revenue
+- Total products
+- Total Orders
+- Total Stores
+- Total User
+- Average Revenue
+- Top Stores
+- Recent Orders
+- Product Stock Report
+- Latest reviews
+- Top Selling Products"
+
+TC_02
+"1. Navigate to login page
+URL: https://admin.pixelstrap.net/multikart-admin-rest/auth/login
+Email : admin@example.com
+Password: 123456789
+2. Login to application
+3. Click to Users -> All Users"
+//result
+3. The Users page should be displayed with 4 Users:
+    Rhoda Mayer,
+    Jack Doe,
+    Rhoda Mayer
+    john due.
+
+TC_03
+"1. Navigate to login page
+URL: https://admin.pixelstrap.net/multikart-admin-rest/auth/login
+Email : admin@example.com
+Password: 123456789
+2. Login to application
+3. Click to Products -> All Products
+4. Search product: Boyfriend Shirts
+5. Click edit product"
+//result
+"5. The product page should be displayed:
+- Store: Trendy Fashion
+- Boyfriend Shirts
+- Tax: Sales Tex
+- Type: Simple Product
+- Stock Status: In Stock
+- SKU: FASH15
+- Stock Quantity: 27
+- Price: 12
+- Discount: 12
+- Sale Price: 10.56
+- Wholesale Price Type: Fixed"
+
+TC_04
+"1. Navigate to login page
+URL: https://admin.pixelstrap.net/multikart-admin-rest/auth/login
+Email : admin@example.com
+Password: 123456789
+2. Login to application
+3. Click to Products -> Add Product
+4. Input product information:
+- Product Type: Physical Product
+- Store: Code Chronicle
+- Name: Random
+- Short Description: Demo
+- Description: Demo
+- Tax: Sales Tax
+- SKU: Random
+- Stock Quantity: 10
+- Price: 100
+- Discount: 5%
+- Sale Status : Enable
+- Sale Start Date: Current Date
+- Sale End Date : 20 days after Current Date
+- Categories: Books
+- Brand: Aero Edge
+5. Click Save button"
+//result
+5. The product save successfully
+
+TC_05
+"1. Navigate to login page
+URL: https://admin.pixelstrap.net/multikart-admin-rest/auth/login
+Email : admin@example.com
+Password: 123456789
+2. Login to application
+3. Click to Products -> Attributes"
+//result
+3. The Attribute table displayed with Name sort by ascending.
+
+TC_06
+"1. Navigate to login page
+URL: https://admin.pixelstrap.net/multikart-admin-rest/auth/login
+Email : admin@example.com
+Password: 123456789
+2. Login to application
+3. Click to Stores -> All Store
+4. Search by Merry Mart.
+5. Click to Edit"
+//result
+"4. The table display Merry Mart store.
+5. The edit page display:
+- Store Name: Merry Mart
+- Country: United States
+- State: Minnesota
+- City: Cottage Grove
+- Address: 3C, Praire Laine
+- Pincode: 55033
+- Name: Elsa Stone
+- Email Address: elsa@gmail.com"
+
+TC_07
+"1. Navigate to login page
+URL: https://admin.pixelstrap.net/multikart-admin-rest/auth/login
+Email : admin@example.com
+Password: 123456789
+2. Login to application
+3. Click to Orders -> Create new order
+4. Select Book
+5. Add ""Infinite Horizons"" to Cart
+6. Click to Process to checkout.
+7. Select Rhoda Mayer customer"
+//result
+"7. The Order Summery should be display:
+- Subtotal: Not calculated yet
+- Shipping: Not calculated yet
+- Tax: Not calculated yet
+- Place Order disable"

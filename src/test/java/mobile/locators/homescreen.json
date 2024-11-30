@@ -1,0 +1,15 @@
+{
+  "skipButton": "#wrteam.multivendor.customer:id/tvSkip",
+  "nextButton": "#wrteam.multivendor.customer:id/tvNext",
+  "lookForThingsAroundYouText": "#wrteam.multivendor.customer:id/tvMessage",
+  "searchPinTextBox": "#wrteam.multivendor.customer:id/searchView",
+  "searchButton": "#wrteam.multivendor.customer:id/tvSearch",
+  "locationDisplayAll": "-new UiSelector().text(\"All\")",
+  "locationDisplay370405": "-new UiSelector().text(\"370405\")",
+  "locationDisplay841301": "-new UiSelector().text(\"841301\")",
+  "locationDisplay800001": "-new UiSelector().text(\"800001\")",
+  "locationDisplay370465": "-new UiSelector().text(\"370465\")",
+  "locationDisplay370001": "-new UiSelector().text(\"370001\")",
+  "categoryNav": "@Category",
+  "freshVegetables": "new UiSelector().text(\"Fresh Vagetables\")"
+}

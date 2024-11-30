@@ -1,0 +1,9 @@
+{
+  "username": "#email",
+  "password": "#password",
+  "loginButton": "#login_btn",
+  "forgotPasswordLink": "//a[normalize-space()='Forgot Password?']",
+  "signupLink": "//a[normalize-space()='Sign Up']",
+  "usernameValue": "admin@example.com",
+  "passwordValue": "123456789"
+}

@@ -1,0 +1,8 @@
+{
+  "categoryTitleCoffeeProduct": "-new UiSelector().text(\"Coffee Product\")",
+  "categoryTitleFastFood": "-new UiSelector().text(\" Fast Food\")",
+  "categoryTitleHomeSuppliesUtilitiesStationery": "-new UiSelector().text(\" Home Supplies, Utilities & Stationery\")",
+  "categoryTitleBeverages": "-new UiSelector().text(\"Beverages\")",
+  "categoryTitleBabyNeeds": "-new UiSelector().text(\" Baby Need's\")",
+  "categoryTitleVegetables": "-new UiSelector().text(\"Vegetables\")"
+}
